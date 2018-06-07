@@ -25,9 +25,16 @@ header .container ul {
     justify-content: space-around;
  }
 
-header .container li {
+header .container li a {
     padding: 1vh 2vh;
     color: #fff;
+    text-decoration: none;
+}
+
+header .container li:hover a {
+    height: 100%;
+    background-color: white;
+    color: #000000;
 }
  .jumbotron {
     display: flex;
@@ -80,7 +87,7 @@ header .container li {
 }
 
 .cards h4 {
-    width: 240px;
+    width: 220px;
     background-color: #4b6584;
 }
 
@@ -94,4 +101,25 @@ header .container li {
     justify-content: center;
     align-items: center;
 }
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .company-name {
+    flex-grow: .8;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+footer .company-name p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
